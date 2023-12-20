@@ -14,6 +14,14 @@
       "destination": "https://api.nextapi.fun/:match*"
     },
     {
+      "source": "/v1/:match*",
+      "destination": "https://api.nextapi.fun/v1/:match*"
+    },
+    {
+      "source": "/chat/:match*",
+      "destination": "https://api.nextapi.fun/v1/chat/:match*"
+    },
+    {
       "source": "/_next/static/:match*",
       "destination": "https://api.nextapi.fun/_next/static/:match*"
     },
